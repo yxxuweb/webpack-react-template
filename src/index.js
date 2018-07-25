@@ -19,6 +19,8 @@ const LoadableComponent = Loadable({
   },
 });
 
+console.log(456);
+
 class App extends React.Component {
   render() {
     return (
