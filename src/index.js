@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import PropTypes from 'prop-types';
 import Loadable from 'react-loadable';
 console.log('asd');
-
+console.log('123');
 const LoadableComponent = Loadable({
   loader: () => import('./test'),
   loading(props) {
